@@ -1,0 +1,16 @@
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/edit_cache.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/low_level_ldt.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/test_publisher.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/test_jsonize.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/test_subscriber.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/video_client_example.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/sport_client_example.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/vui_client_example.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/low_level.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/wireless.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/high_follow_sin.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/advanced_gamepad.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/state_machine_example.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/sportmode_test.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/robot_state_client_example.dir
