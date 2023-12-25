@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/Projects/unitree_sdk2_ldt/example/user/low_state_ldt.cpp
+iostream
+-
+stdio.h
+-
+stdint.h
+-
+math.h
+-
+unitree/robot/channel/channel_publisher.hpp
+-
+unitree/robot/channel/channel_subscriber.hpp
+-
+unitree/idl/go2/LowState_.hpp
+-
+

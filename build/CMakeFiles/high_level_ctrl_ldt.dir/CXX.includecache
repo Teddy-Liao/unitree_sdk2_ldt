@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/Projects/unitree_sdk2_ldt/example/user/high_level_ctrl_ldt.cpp
+unitree/robot/go2/sport/sport_client.hpp
+-
+unistd.h
+-
+

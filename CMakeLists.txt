@@ -21,6 +21,12 @@ add_executable(robot_state_client_example example/client/robot_state_client_exam
 add_executable(sport_client_example example/client/sport_client_example.cpp)
 add_executable(video_client_example example/client/video_client_example.cpp)
 add_executable(vui_client_example example/client/vui_client_example.cpp)
-#
+
+# 下面是user中的自定义程序
 add_executable(low_level_ldt example/user/low_level_ldt.cpp)
+add_executable(joystick_test_ldt example/user/joystick_test_ldt.cpp)
+add_executable(high_level_ctrl_ldt example/user/high_level_ctrl_ldt.cpp)
+add_executable(stand_posture_ldt example/user/stand_posture_ldt.cpp)
+add_executable(high_state_ldt example/user/high_state_ldt.cpp)
+add_executable(low_state_ldt example/user/low_state_ldt.cpp)
 

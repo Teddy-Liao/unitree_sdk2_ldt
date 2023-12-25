@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/Projects/unitree_sdk2_ldt/example/user/joystick_test.cpp
+unitree/robot/channel/channel_subscriber.hpp
+-
+unitree/idl/go2/WirelessController_.hpp
+-
+unitree/robot/client/client.hpp
+-
+

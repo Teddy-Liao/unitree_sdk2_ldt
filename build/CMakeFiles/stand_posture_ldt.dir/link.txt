@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/stand_posture_ldt.dir/example/user/stand_posture_ldt.cpp.o  -o stand_posture_ldt  -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread 

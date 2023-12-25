@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named low_state_ldt
+
+# Build rule for target.
+low_state_ldt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 low_state_ldt
+.PHONY : low_state_ldt
+
+# fast build rule for target.
+low_state_ldt/fast:
+	$(MAKE) -f CMakeFiles/low_state_ldt.dir/build.make CMakeFiles/low_state_ldt.dir/build
+.PHONY : low_state_ldt/fast
+
+#=============================================================================
+# Target rules for targets named stand_posture_ldt
+
+# Build rule for target.
+stand_posture_ldt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stand_posture_ldt
+.PHONY : stand_posture_ldt
+
+# fast build rule for target.
+stand_posture_ldt/fast:
+	$(MAKE) -f CMakeFiles/stand_posture_ldt.dir/build.make CMakeFiles/stand_posture_ldt.dir/build
+.PHONY : stand_posture_ldt/fast
+
+#=============================================================================
 # Target rules for targets named low_level_ldt
 
 # Build rule for target.
@@ -137,6 +163,19 @@ test_publisher/fast:
 .PHONY : test_publisher/fast
 
 #=============================================================================
+# Target rules for targets named high_state_ldt
+
+# Build rule for target.
+high_state_ldt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 high_state_ldt
+.PHONY : high_state_ldt
+
+# fast build rule for target.
+high_state_ldt/fast:
+	$(MAKE) -f CMakeFiles/high_state_ldt.dir/build.make CMakeFiles/high_state_ldt.dir/build
+.PHONY : high_state_ldt/fast
+
+#=============================================================================
 # Target rules for targets named test_jsonize
 
 # Build rule for target.
@@ -148,6 +187,19 @@ test_jsonize: cmake_check_build_system
 test_jsonize/fast:
 	$(MAKE) -f CMakeFiles/test_jsonize.dir/build.make CMakeFiles/test_jsonize.dir/build
 .PHONY : test_jsonize/fast
+
+#=============================================================================
+# Target rules for targets named joystick_test_ldt
+
+# Build rule for target.
+joystick_test_ldt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 joystick_test_ldt
+.PHONY : joystick_test_ldt
+
+# fast build rule for target.
+joystick_test_ldt/fast:
+	$(MAKE) -f CMakeFiles/joystick_test_ldt.dir/build.make CMakeFiles/joystick_test_ldt.dir/build
+.PHONY : joystick_test_ldt/fast
 
 #=============================================================================
 # Target rules for targets named test_subscriber
@@ -174,6 +226,19 @@ video_client_example: cmake_check_build_system
 video_client_example/fast:
 	$(MAKE) -f CMakeFiles/video_client_example.dir/build.make CMakeFiles/video_client_example.dir/build
 .PHONY : video_client_example/fast
+
+#=============================================================================
+# Target rules for targets named high_level_ctrl_ldt
+
+# Build rule for target.
+high_level_ctrl_ldt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 high_level_ctrl_ldt
+.PHONY : high_level_ctrl_ldt
+
+# fast build rule for target.
+high_level_ctrl_ldt/fast:
+	$(MAKE) -f CMakeFiles/high_level_ctrl_ldt.dir/build.make CMakeFiles/high_level_ctrl_ldt.dir/build
+.PHONY : high_level_ctrl_ldt/fast
 
 #=============================================================================
 # Target rules for targets named sport_client_example
@@ -646,6 +711,87 @@ example/state_machine/main.cpp.s:
 	$(MAKE) -f CMakeFiles/state_machine_example.dir/build.make CMakeFiles/state_machine_example.dir/example/state_machine/main.cpp.s
 .PHONY : example/state_machine/main.cpp.s
 
+example/user/high_level_ctrl_ldt.o: example/user/high_level_ctrl_ldt.cpp.o
+
+.PHONY : example/user/high_level_ctrl_ldt.o
+
+# target to build an object file
+example/user/high_level_ctrl_ldt.cpp.o:
+	$(MAKE) -f CMakeFiles/high_level_ctrl_ldt.dir/build.make CMakeFiles/high_level_ctrl_ldt.dir/example/user/high_level_ctrl_ldt.cpp.o
+.PHONY : example/user/high_level_ctrl_ldt.cpp.o
+
+example/user/high_level_ctrl_ldt.i: example/user/high_level_ctrl_ldt.cpp.i
+
+.PHONY : example/user/high_level_ctrl_ldt.i
+
+# target to preprocess a source file
+example/user/high_level_ctrl_ldt.cpp.i:
+	$(MAKE) -f CMakeFiles/high_level_ctrl_ldt.dir/build.make CMakeFiles/high_level_ctrl_ldt.dir/example/user/high_level_ctrl_ldt.cpp.i
+.PHONY : example/user/high_level_ctrl_ldt.cpp.i
+
+example/user/high_level_ctrl_ldt.s: example/user/high_level_ctrl_ldt.cpp.s
+
+.PHONY : example/user/high_level_ctrl_ldt.s
+
+# target to generate assembly for a file
+example/user/high_level_ctrl_ldt.cpp.s:
+	$(MAKE) -f CMakeFiles/high_level_ctrl_ldt.dir/build.make CMakeFiles/high_level_ctrl_ldt.dir/example/user/high_level_ctrl_ldt.cpp.s
+.PHONY : example/user/high_level_ctrl_ldt.cpp.s
+
+example/user/high_state_ldt.o: example/user/high_state_ldt.cpp.o
+
+.PHONY : example/user/high_state_ldt.o
+
+# target to build an object file
+example/user/high_state_ldt.cpp.o:
+	$(MAKE) -f CMakeFiles/high_state_ldt.dir/build.make CMakeFiles/high_state_ldt.dir/example/user/high_state_ldt.cpp.o
+.PHONY : example/user/high_state_ldt.cpp.o
+
+example/user/high_state_ldt.i: example/user/high_state_ldt.cpp.i
+
+.PHONY : example/user/high_state_ldt.i
+
+# target to preprocess a source file
+example/user/high_state_ldt.cpp.i:
+	$(MAKE) -f CMakeFiles/high_state_ldt.dir/build.make CMakeFiles/high_state_ldt.dir/example/user/high_state_ldt.cpp.i
+.PHONY : example/user/high_state_ldt.cpp.i
+
+example/user/high_state_ldt.s: example/user/high_state_ldt.cpp.s
+
+.PHONY : example/user/high_state_ldt.s
+
+# target to generate assembly for a file
+example/user/high_state_ldt.cpp.s:
+	$(MAKE) -f CMakeFiles/high_state_ldt.dir/build.make CMakeFiles/high_state_ldt.dir/example/user/high_state_ldt.cpp.s
+.PHONY : example/user/high_state_ldt.cpp.s
+
+example/user/joystick_test_ldt.o: example/user/joystick_test_ldt.cpp.o
+
+.PHONY : example/user/joystick_test_ldt.o
+
+# target to build an object file
+example/user/joystick_test_ldt.cpp.o:
+	$(MAKE) -f CMakeFiles/joystick_test_ldt.dir/build.make CMakeFiles/joystick_test_ldt.dir/example/user/joystick_test_ldt.cpp.o
+.PHONY : example/user/joystick_test_ldt.cpp.o
+
+example/user/joystick_test_ldt.i: example/user/joystick_test_ldt.cpp.i
+
+.PHONY : example/user/joystick_test_ldt.i
+
+# target to preprocess a source file
+example/user/joystick_test_ldt.cpp.i:
+	$(MAKE) -f CMakeFiles/joystick_test_ldt.dir/build.make CMakeFiles/joystick_test_ldt.dir/example/user/joystick_test_ldt.cpp.i
+.PHONY : example/user/joystick_test_ldt.cpp.i
+
+example/user/joystick_test_ldt.s: example/user/joystick_test_ldt.cpp.s
+
+.PHONY : example/user/joystick_test_ldt.s
+
+# target to generate assembly for a file
+example/user/joystick_test_ldt.cpp.s:
+	$(MAKE) -f CMakeFiles/joystick_test_ldt.dir/build.make CMakeFiles/joystick_test_ldt.dir/example/user/joystick_test_ldt.cpp.s
+.PHONY : example/user/joystick_test_ldt.cpp.s
+
 example/user/low_level_ldt.o: example/user/low_level_ldt.cpp.o
 
 .PHONY : example/user/low_level_ldt.o
@@ -672,6 +818,60 @@ example/user/low_level_ldt.s: example/user/low_level_ldt.cpp.s
 example/user/low_level_ldt.cpp.s:
 	$(MAKE) -f CMakeFiles/low_level_ldt.dir/build.make CMakeFiles/low_level_ldt.dir/example/user/low_level_ldt.cpp.s
 .PHONY : example/user/low_level_ldt.cpp.s
+
+example/user/low_state_ldt.o: example/user/low_state_ldt.cpp.o
+
+.PHONY : example/user/low_state_ldt.o
+
+# target to build an object file
+example/user/low_state_ldt.cpp.o:
+	$(MAKE) -f CMakeFiles/low_state_ldt.dir/build.make CMakeFiles/low_state_ldt.dir/example/user/low_state_ldt.cpp.o
+.PHONY : example/user/low_state_ldt.cpp.o
+
+example/user/low_state_ldt.i: example/user/low_state_ldt.cpp.i
+
+.PHONY : example/user/low_state_ldt.i
+
+# target to preprocess a source file
+example/user/low_state_ldt.cpp.i:
+	$(MAKE) -f CMakeFiles/low_state_ldt.dir/build.make CMakeFiles/low_state_ldt.dir/example/user/low_state_ldt.cpp.i
+.PHONY : example/user/low_state_ldt.cpp.i
+
+example/user/low_state_ldt.s: example/user/low_state_ldt.cpp.s
+
+.PHONY : example/user/low_state_ldt.s
+
+# target to generate assembly for a file
+example/user/low_state_ldt.cpp.s:
+	$(MAKE) -f CMakeFiles/low_state_ldt.dir/build.make CMakeFiles/low_state_ldt.dir/example/user/low_state_ldt.cpp.s
+.PHONY : example/user/low_state_ldt.cpp.s
+
+example/user/stand_posture_ldt.o: example/user/stand_posture_ldt.cpp.o
+
+.PHONY : example/user/stand_posture_ldt.o
+
+# target to build an object file
+example/user/stand_posture_ldt.cpp.o:
+	$(MAKE) -f CMakeFiles/stand_posture_ldt.dir/build.make CMakeFiles/stand_posture_ldt.dir/example/user/stand_posture_ldt.cpp.o
+.PHONY : example/user/stand_posture_ldt.cpp.o
+
+example/user/stand_posture_ldt.i: example/user/stand_posture_ldt.cpp.i
+
+.PHONY : example/user/stand_posture_ldt.i
+
+# target to preprocess a source file
+example/user/stand_posture_ldt.cpp.i:
+	$(MAKE) -f CMakeFiles/stand_posture_ldt.dir/build.make CMakeFiles/stand_posture_ldt.dir/example/user/stand_posture_ldt.cpp.i
+.PHONY : example/user/stand_posture_ldt.cpp.i
+
+example/user/stand_posture_ldt.s: example/user/stand_posture_ldt.cpp.s
+
+.PHONY : example/user/stand_posture_ldt.s
+
+# target to generate assembly for a file
+example/user/stand_posture_ldt.cpp.s:
+	$(MAKE) -f CMakeFiles/stand_posture_ldt.dir/build.make CMakeFiles/stand_posture_ldt.dir/example/user/stand_posture_ldt.cpp.s
+.PHONY : example/user/stand_posture_ldt.cpp.s
 
 example/wireless/wireless.o: example/wireless/wireless.cpp.o
 
@@ -708,11 +908,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... low_state_ldt"
+	@echo "... stand_posture_ldt"
 	@echo "... low_level_ldt"
 	@echo "... test_publisher"
+	@echo "... high_state_ldt"
 	@echo "... test_jsonize"
+	@echo "... joystick_test_ldt"
 	@echo "... test_subscriber"
 	@echo "... video_client_example"
+	@echo "... high_level_ctrl_ldt"
 	@echo "... sport_client_example"
 	@echo "... vui_client_example"
 	@echo "... low_level"
@@ -761,9 +966,24 @@ help:
 	@echo "... example/state_machine/main.o"
 	@echo "... example/state_machine/main.i"
 	@echo "... example/state_machine/main.s"
+	@echo "... example/user/high_level_ctrl_ldt.o"
+	@echo "... example/user/high_level_ctrl_ldt.i"
+	@echo "... example/user/high_level_ctrl_ldt.s"
+	@echo "... example/user/high_state_ldt.o"
+	@echo "... example/user/high_state_ldt.i"
+	@echo "... example/user/high_state_ldt.s"
+	@echo "... example/user/joystick_test_ldt.o"
+	@echo "... example/user/joystick_test_ldt.i"
+	@echo "... example/user/joystick_test_ldt.s"
 	@echo "... example/user/low_level_ldt.o"
 	@echo "... example/user/low_level_ldt.i"
 	@echo "... example/user/low_level_ldt.s"
+	@echo "... example/user/low_state_ldt.o"
+	@echo "... example/user/low_state_ldt.i"
+	@echo "... example/user/low_state_ldt.s"
+	@echo "... example/user/stand_posture_ldt.o"
+	@echo "... example/user/stand_posture_ldt.i"
+	@echo "... example/user/stand_posture_ldt.s"
 	@echo "... example/wireless/wireless.o"
 	@echo "... example/wireless/wireless.i"
 	@echo "... example/wireless/wireless.s"

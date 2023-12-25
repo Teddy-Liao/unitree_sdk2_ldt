@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/high_level_ctrl_ldt.dir/example/user/high_level_ctrl_ldt.cpp.o  -o high_level_ctrl_ldt  -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread 

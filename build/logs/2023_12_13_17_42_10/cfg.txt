@@ -1,1 +1,0 @@
-param_folder: "/home/parallels/Projects/unitree_sdk2_ldt/build/../example/state_machine/params"

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/joystick_test.dir/example/user/joystick_test.cpp.o  -o joystick_test  -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread 

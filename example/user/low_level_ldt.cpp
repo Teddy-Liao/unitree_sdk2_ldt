@@ -245,19 +245,19 @@ void Custom::LowCmdWrite()
         // low_cmd.motor_cmd()[2].tau() = 0;
 
 
-        /*左前大腿0位置*/
-        low_cmd.motor_cmd()[4].q() = 0;
-        low_cmd.motor_cmd()[4].dq() = 0;
-        low_cmd.motor_cmd()[4].kp() = 5;
-        low_cmd.motor_cmd()[4].kd() = 1;
-        low_cmd.motor_cmd()[4].tau() = 0;
+        // /*左前大腿0位置*/
+        // low_cmd.motor_cmd()[4].q() = qDes[1];
+        // low_cmd.motor_cmd()[4].dq() = 0;
+        // low_cmd.motor_cmd()[4].kp() = Kp[1];
+        // low_cmd.motor_cmd()[4].kd() = Kd[1];
+        // low_cmd.motor_cmd()[4].tau() = 0;
 
         /*左前小腿0力矩*/
-        // low_cmd.motor_cmd()[5].q() = 0;
-        // low_cmd.motor_cmd()[5].dq() = 0;
-        // low_cmd.motor_cmd()[5].kp() = 0;
-        // low_cmd.motor_cmd()[5].kd() = 0;
-        // low_cmd.motor_cmd()[5].tau() = 0;
+        low_cmd.motor_cmd()[5].q() = 0;
+        low_cmd.motor_cmd()[5].dq() = 0;
+        low_cmd.motor_cmd()[5].kp() = 0;
+        low_cmd.motor_cmd()[5].kd() = 0;
+        low_cmd.motor_cmd()[5].tau() = 0;
 
     }
 

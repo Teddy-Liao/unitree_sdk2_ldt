@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/high_state_ldt.dir/example/user/high_state_ldt.cpp.o  -o high_state_ldt  -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread 
