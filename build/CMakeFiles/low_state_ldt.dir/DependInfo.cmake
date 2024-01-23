@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include/ddscxx"
   "/usr/local/include/iceoryx/v2.0.2"
+  "../example/lcm"
   )
 
 # Targets to which this target links.

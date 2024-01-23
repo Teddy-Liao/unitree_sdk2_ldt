@@ -6,13 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Projects/unitree_sdk2_ldt/example/client/video_client_example.cpp
-unitree/robot/go2/video/video_client.hpp
--
-iostream
--
-fstream
--
-ctime
--
-

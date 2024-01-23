@@ -6,13 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Projects/unitree_sdk2_ldt/example/user/stand_posture_ldt.cpp
-cmath
--
-signal.h
--
-unistd.h
--
-unitree/robot/go2/sport/sport_client.hpp
--
-

@@ -6,7 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Projects/unitree_sdk2_ldt/example/client/vui_client_example.cpp
-unitree/robot/go2/vui/vui_client.hpp
--
-

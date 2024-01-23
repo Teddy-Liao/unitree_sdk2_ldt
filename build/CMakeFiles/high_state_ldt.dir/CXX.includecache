@@ -6,9 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Projects/unitree_sdk2_ldt/example/user/high_state_ldt.cpp
-unitree/idl/go2/SportModeState_.hpp
--
-unitree/robot/channel/channel_subscriber.hpp
--
-

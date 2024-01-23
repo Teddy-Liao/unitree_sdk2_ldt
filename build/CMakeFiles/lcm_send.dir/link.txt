@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.o  -o lcm_send  -Wl,-rpath,/usr/local/lib -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread /usr/local/lib/liblcm.so.1.5.0 

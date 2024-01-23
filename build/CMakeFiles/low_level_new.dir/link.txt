@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/low_level_new.dir/example/low_level/low_level_new.cpp.o  -o low_level_new  -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread 

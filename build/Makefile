@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lcm_receive
+
+# Build rule for target.
+lcm_receive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lcm_receive
+.PHONY : lcm_receive
+
+# fast build rule for target.
+lcm_receive/fast:
+	$(MAKE) -f CMakeFiles/lcm_receive.dir/build.make CMakeFiles/lcm_receive.dir/build
+.PHONY : lcm_receive/fast
+
+#=============================================================================
+# Target rules for targets named lcm_send
+
+# Build rule for target.
+lcm_send: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lcm_send
+.PHONY : lcm_send
+
+# fast build rule for target.
+lcm_send/fast:
+	$(MAKE) -f CMakeFiles/lcm_send.dir/build.make CMakeFiles/lcm_send.dir/build
+.PHONY : lcm_send/fast
+
+#=============================================================================
 # Target rules for targets named low_state_ldt
 
 # Build rule for target.
@@ -226,6 +252,19 @@ video_client_example: cmake_check_build_system
 video_client_example/fast:
 	$(MAKE) -f CMakeFiles/video_client_example.dir/build.make CMakeFiles/video_client_example.dir/build
 .PHONY : video_client_example/fast
+
+#=============================================================================
+# Target rules for targets named low_level_new
+
+# Build rule for target.
+low_level_new: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 low_level_new
+.PHONY : low_level_new
+
+# fast build rule for target.
+low_level_new/fast:
+	$(MAKE) -f CMakeFiles/low_level_new.dir/build.make CMakeFiles/low_level_new.dir/build
+.PHONY : low_level_new/fast
 
 #=============================================================================
 # Target rules for targets named high_level_ctrl_ldt
@@ -657,6 +696,60 @@ example/jsonize/test_jsonize.cpp.s:
 	$(MAKE) -f CMakeFiles/test_jsonize.dir/build.make CMakeFiles/test_jsonize.dir/example/jsonize/test_jsonize.cpp.s
 .PHONY : example/jsonize/test_jsonize.cpp.s
 
+example/lcm/lcm_receive.o: example/lcm/lcm_receive.cpp.o
+
+.PHONY : example/lcm/lcm_receive.o
+
+# target to build an object file
+example/lcm/lcm_receive.cpp.o:
+	$(MAKE) -f CMakeFiles/lcm_receive.dir/build.make CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.o
+.PHONY : example/lcm/lcm_receive.cpp.o
+
+example/lcm/lcm_receive.i: example/lcm/lcm_receive.cpp.i
+
+.PHONY : example/lcm/lcm_receive.i
+
+# target to preprocess a source file
+example/lcm/lcm_receive.cpp.i:
+	$(MAKE) -f CMakeFiles/lcm_receive.dir/build.make CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.i
+.PHONY : example/lcm/lcm_receive.cpp.i
+
+example/lcm/lcm_receive.s: example/lcm/lcm_receive.cpp.s
+
+.PHONY : example/lcm/lcm_receive.s
+
+# target to generate assembly for a file
+example/lcm/lcm_receive.cpp.s:
+	$(MAKE) -f CMakeFiles/lcm_receive.dir/build.make CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.s
+.PHONY : example/lcm/lcm_receive.cpp.s
+
+example/lcm/lcm_send.o: example/lcm/lcm_send.cpp.o
+
+.PHONY : example/lcm/lcm_send.o
+
+# target to build an object file
+example/lcm/lcm_send.cpp.o:
+	$(MAKE) -f CMakeFiles/lcm_send.dir/build.make CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.o
+.PHONY : example/lcm/lcm_send.cpp.o
+
+example/lcm/lcm_send.i: example/lcm/lcm_send.cpp.i
+
+.PHONY : example/lcm/lcm_send.i
+
+# target to preprocess a source file
+example/lcm/lcm_send.cpp.i:
+	$(MAKE) -f CMakeFiles/lcm_send.dir/build.make CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.i
+.PHONY : example/lcm/lcm_send.cpp.i
+
+example/lcm/lcm_send.s: example/lcm/lcm_send.cpp.s
+
+.PHONY : example/lcm/lcm_send.s
+
+# target to generate assembly for a file
+example/lcm/lcm_send.cpp.s:
+	$(MAKE) -f CMakeFiles/lcm_send.dir/build.make CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.s
+.PHONY : example/lcm/lcm_send.cpp.s
+
 example/low_level/low_level.o: example/low_level/low_level.cpp.o
 
 .PHONY : example/low_level/low_level.o
@@ -683,6 +776,33 @@ example/low_level/low_level.s: example/low_level/low_level.cpp.s
 example/low_level/low_level.cpp.s:
 	$(MAKE) -f CMakeFiles/low_level.dir/build.make CMakeFiles/low_level.dir/example/low_level/low_level.cpp.s
 .PHONY : example/low_level/low_level.cpp.s
+
+example/low_level/low_level_new.o: example/low_level/low_level_new.cpp.o
+
+.PHONY : example/low_level/low_level_new.o
+
+# target to build an object file
+example/low_level/low_level_new.cpp.o:
+	$(MAKE) -f CMakeFiles/low_level_new.dir/build.make CMakeFiles/low_level_new.dir/example/low_level/low_level_new.cpp.o
+.PHONY : example/low_level/low_level_new.cpp.o
+
+example/low_level/low_level_new.i: example/low_level/low_level_new.cpp.i
+
+.PHONY : example/low_level/low_level_new.i
+
+# target to preprocess a source file
+example/low_level/low_level_new.cpp.i:
+	$(MAKE) -f CMakeFiles/low_level_new.dir/build.make CMakeFiles/low_level_new.dir/example/low_level/low_level_new.cpp.i
+.PHONY : example/low_level/low_level_new.cpp.i
+
+example/low_level/low_level_new.s: example/low_level/low_level_new.cpp.s
+
+.PHONY : example/low_level/low_level_new.s
+
+# target to generate assembly for a file
+example/low_level/low_level_new.cpp.s:
+	$(MAKE) -f CMakeFiles/low_level_new.dir/build.make CMakeFiles/low_level_new.dir/example/low_level/low_level_new.cpp.s
+.PHONY : example/low_level/low_level_new.cpp.s
 
 example/state_machine/main.o: example/state_machine/main.cpp.o
 
@@ -908,6 +1028,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... lcm_receive"
+	@echo "... lcm_send"
 	@echo "... low_state_ldt"
 	@echo "... stand_posture_ldt"
 	@echo "... low_level_ldt"
@@ -917,6 +1039,7 @@ help:
 	@echo "... joystick_test_ldt"
 	@echo "... test_subscriber"
 	@echo "... video_client_example"
+	@echo "... low_level_new"
 	@echo "... high_level_ctrl_ldt"
 	@echo "... sport_client_example"
 	@echo "... vui_client_example"
@@ -960,9 +1083,18 @@ help:
 	@echo "... example/jsonize/test_jsonize.o"
 	@echo "... example/jsonize/test_jsonize.i"
 	@echo "... example/jsonize/test_jsonize.s"
+	@echo "... example/lcm/lcm_receive.o"
+	@echo "... example/lcm/lcm_receive.i"
+	@echo "... example/lcm/lcm_receive.s"
+	@echo "... example/lcm/lcm_send.o"
+	@echo "... example/lcm/lcm_send.i"
+	@echo "... example/lcm/lcm_send.s"
 	@echo "... example/low_level/low_level.o"
 	@echo "... example/low_level/low_level.i"
 	@echo "... example/low_level/low_level.s"
+	@echo "... example/low_level/low_level_new.o"
+	@echo "... example/low_level/low_level_new.i"
+	@echo "... example/low_level/low_level_new.s"
 	@echo "... example/state_machine/main.o"
 	@echo "... example/state_machine/main.i"
 	@echo "... example/state_machine/main.s"

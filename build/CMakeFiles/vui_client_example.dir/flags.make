@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include/ddscxx -I/usr/local/include/iceoryx/v2.0.2 
+CXX_INCLUDES = -I/usr/local/include/ddscxx -I/usr/local/include/iceoryx/v2.0.2 -I/home/parallels/Projects/unitree_sdk2_ldt/example/lcm 
 

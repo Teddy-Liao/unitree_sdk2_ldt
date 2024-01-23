@@ -6,9 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Projects/unitree_sdk2_ldt/example/client/robot_state_client_example.cpp
-unitree/robot/go2/robot_state/robot_state_client.hpp
--
-unitree/common/time/time_tool.hpp
--
-

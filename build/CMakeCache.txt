@@ -215,6 +215,9 @@ helloworld_BINARY_DIR:STATIC=/home/parallels/Projects/unitree_sdk2_ldt/build
 //Value Computed by CMake
 helloworld_SOURCE_DIR:STATIC=/home/parallels/Projects/unitree_sdk2_ldt
 
+//The directory containing a CMake configuration file for lcm.
+lcm_DIR:PATH=/usr/local/lib/lcm/cmake
+
 
 ########################
 # INTERNAL cache entries

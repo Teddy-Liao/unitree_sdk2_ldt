@@ -6,7 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Projects/unitree_sdk2_ldt/example/jsonize/test_jsonize.cpp
-unitree/common/json/jsonize.hpp
--
-

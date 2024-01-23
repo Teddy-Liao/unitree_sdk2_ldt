@@ -53,6 +53,8 @@ CMAKE_BINARY_DIR = /home/parallels/Projects/unitree_sdk2_ldt/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/lcm_receive.dir/all
+all: CMakeFiles/lcm_send.dir/all
 all: CMakeFiles/low_state_ldt.dir/all
 all: CMakeFiles/stand_posture_ldt.dir/all
 all: CMakeFiles/low_level_ldt.dir/all
@@ -62,6 +64,7 @@ all: CMakeFiles/test_jsonize.dir/all
 all: CMakeFiles/joystick_test_ldt.dir/all
 all: CMakeFiles/test_subscriber.dir/all
 all: CMakeFiles/video_client_example.dir/all
+all: CMakeFiles/low_level_new.dir/all
 all: CMakeFiles/high_level_ctrl_ldt.dir/all
 all: CMakeFiles/sport_client_example.dir/all
 all: CMakeFiles/vui_client_example.dir/all
@@ -81,6 +84,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/lcm_receive.dir/clean
+clean: CMakeFiles/lcm_send.dir/clean
 clean: CMakeFiles/low_state_ldt.dir/clean
 clean: CMakeFiles/stand_posture_ldt.dir/clean
 clean: CMakeFiles/low_level_ldt.dir/clean
@@ -90,6 +95,7 @@ clean: CMakeFiles/test_jsonize.dir/clean
 clean: CMakeFiles/joystick_test_ldt.dir/clean
 clean: CMakeFiles/test_subscriber.dir/clean
 clean: CMakeFiles/video_client_example.dir/clean
+clean: CMakeFiles/low_level_new.dir/clean
 clean: CMakeFiles/high_level_ctrl_ldt.dir/clean
 clean: CMakeFiles/sport_client_example.dir/clean
 clean: CMakeFiles/vui_client_example.dir/clean
@@ -104,13 +110,67 @@ clean: CMakeFiles/robot_state_client_example.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/lcm_receive.dir
+
+# All Build rule for target.
+CMakeFiles/lcm_receive.dir/all:
+	$(MAKE) -f CMakeFiles/lcm_receive.dir/build.make CMakeFiles/lcm_receive.dir/depend
+	$(MAKE) -f CMakeFiles/lcm_receive.dir/build.make CMakeFiles/lcm_receive.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=11,12 "Built target lcm_receive"
+.PHONY : CMakeFiles/lcm_receive.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcm_receive.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcm_receive.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles 0
+.PHONY : CMakeFiles/lcm_receive.dir/rule
+
+# Convenience name for target.
+lcm_receive: CMakeFiles/lcm_receive.dir/rule
+
+.PHONY : lcm_receive
+
+# clean rule for target.
+CMakeFiles/lcm_receive.dir/clean:
+	$(MAKE) -f CMakeFiles/lcm_receive.dir/build.make CMakeFiles/lcm_receive.dir/clean
+.PHONY : CMakeFiles/lcm_receive.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lcm_send.dir
+
+# All Build rule for target.
+CMakeFiles/lcm_send.dir/all:
+	$(MAKE) -f CMakeFiles/lcm_send.dir/build.make CMakeFiles/lcm_send.dir/depend
+	$(MAKE) -f CMakeFiles/lcm_send.dir/build.make CMakeFiles/lcm_send.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=13,14 "Built target lcm_send"
+.PHONY : CMakeFiles/lcm_send.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcm_send.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lcm_send.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles 0
+.PHONY : CMakeFiles/lcm_send.dir/rule
+
+# Convenience name for target.
+lcm_send: CMakeFiles/lcm_send.dir/rule
+
+.PHONY : lcm_send
+
+# clean rule for target.
+CMakeFiles/lcm_send.dir/clean:
+	$(MAKE) -f CMakeFiles/lcm_send.dir/build.make CMakeFiles/lcm_send.dir/clean
+.PHONY : CMakeFiles/lcm_send.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/low_state_ldt.dir
 
 # All Build rule for target.
 CMakeFiles/low_state_ldt.dir/all:
 	$(MAKE) -f CMakeFiles/low_state_ldt.dir/build.make CMakeFiles/low_state_ldt.dir/depend
 	$(MAKE) -f CMakeFiles/low_state_ldt.dir/build.make CMakeFiles/low_state_ldt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=15,16 "Built target low_state_ldt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=21,22 "Built target low_state_ldt"
 .PHONY : CMakeFiles/low_state_ldt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +197,7 @@ CMakeFiles/low_state_ldt.dir/clean:
 CMakeFiles/stand_posture_ldt.dir/all:
 	$(MAKE) -f CMakeFiles/stand_posture_ldt.dir/build.make CMakeFiles/stand_posture_ldt.dir/depend
 	$(MAKE) -f CMakeFiles/stand_posture_ldt.dir/build.make CMakeFiles/stand_posture_ldt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=23,24 "Built target stand_posture_ldt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=29,30 "Built target stand_posture_ldt"
 .PHONY : CMakeFiles/stand_posture_ldt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -164,7 +224,7 @@ CMakeFiles/stand_posture_ldt.dir/clean:
 CMakeFiles/low_level_ldt.dir/all:
 	$(MAKE) -f CMakeFiles/low_level_ldt.dir/build.make CMakeFiles/low_level_ldt.dir/depend
 	$(MAKE) -f CMakeFiles/low_level_ldt.dir/build.make CMakeFiles/low_level_ldt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=13,14 "Built target low_level_ldt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=17,18 "Built target low_level_ldt"
 .PHONY : CMakeFiles/low_level_ldt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +251,7 @@ CMakeFiles/low_level_ldt.dir/clean:
 CMakeFiles/test_publisher.dir/all:
 	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/depend
 	$(MAKE) -f CMakeFiles/test_publisher.dir/build.make CMakeFiles/test_publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=29,30,31 "Built target test_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=35,36,37 "Built target test_publisher"
 .PHONY : CMakeFiles/test_publisher.dir/all
 
 # Build rule for subdir invocation for target.
@@ -245,7 +305,7 @@ CMakeFiles/high_state_ldt.dir/clean:
 CMakeFiles/test_jsonize.dir/all:
 	$(MAKE) -f CMakeFiles/test_jsonize.dir/build.make CMakeFiles/test_jsonize.dir/depend
 	$(MAKE) -f CMakeFiles/test_jsonize.dir/build.make CMakeFiles/test_jsonize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=27,28 "Built target test_jsonize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=33,34 "Built target test_jsonize"
 .PHONY : CMakeFiles/test_jsonize.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,7 +359,7 @@ CMakeFiles/joystick_test_ldt.dir/clean:
 CMakeFiles/test_subscriber.dir/all:
 	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/depend
 	$(MAKE) -f CMakeFiles/test_subscriber.dir/build.make CMakeFiles/test_subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=32,33,34 "Built target test_subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=38,39,40 "Built target test_subscriber"
 .PHONY : CMakeFiles/test_subscriber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -326,7 +386,7 @@ CMakeFiles/test_subscriber.dir/clean:
 CMakeFiles/video_client_example.dir/all:
 	$(MAKE) -f CMakeFiles/video_client_example.dir/build.make CMakeFiles/video_client_example.dir/depend
 	$(MAKE) -f CMakeFiles/video_client_example.dir/build.make CMakeFiles/video_client_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=35,36 "Built target video_client_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=41,42 "Built target video_client_example"
 .PHONY : CMakeFiles/video_client_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -345,6 +405,33 @@ video_client_example: CMakeFiles/video_client_example.dir/rule
 CMakeFiles/video_client_example.dir/clean:
 	$(MAKE) -f CMakeFiles/video_client_example.dir/build.make CMakeFiles/video_client_example.dir/clean
 .PHONY : CMakeFiles/video_client_example.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/low_level_new.dir
+
+# All Build rule for target.
+CMakeFiles/low_level_new.dir/all:
+	$(MAKE) -f CMakeFiles/low_level_new.dir/build.make CMakeFiles/low_level_new.dir/depend
+	$(MAKE) -f CMakeFiles/low_level_new.dir/build.make CMakeFiles/low_level_new.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=19,20 "Built target low_level_new"
+.PHONY : CMakeFiles/low_level_new.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/low_level_new.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/low_level_new.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles 0
+.PHONY : CMakeFiles/low_level_new.dir/rule
+
+# Convenience name for target.
+low_level_new: CMakeFiles/low_level_new.dir/rule
+
+.PHONY : low_level_new
+
+# clean rule for target.
+CMakeFiles/low_level_new.dir/clean:
+	$(MAKE) -f CMakeFiles/low_level_new.dir/build.make CMakeFiles/low_level_new.dir/clean
+.PHONY : CMakeFiles/low_level_new.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/high_level_ctrl_ldt.dir
@@ -380,7 +467,7 @@ CMakeFiles/high_level_ctrl_ldt.dir/clean:
 CMakeFiles/sport_client_example.dir/all:
 	$(MAKE) -f CMakeFiles/sport_client_example.dir/build.make CMakeFiles/sport_client_example.dir/depend
 	$(MAKE) -f CMakeFiles/sport_client_example.dir/build.make CMakeFiles/sport_client_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=19,20 "Built target sport_client_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=25,26 "Built target sport_client_example"
 .PHONY : CMakeFiles/sport_client_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -407,7 +494,7 @@ CMakeFiles/sport_client_example.dir/clean:
 CMakeFiles/vui_client_example.dir/all:
 	$(MAKE) -f CMakeFiles/vui_client_example.dir/build.make CMakeFiles/vui_client_example.dir/depend
 	$(MAKE) -f CMakeFiles/vui_client_example.dir/build.make CMakeFiles/vui_client_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=37,38 "Built target vui_client_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=43,44 "Built target vui_client_example"
 .PHONY : CMakeFiles/vui_client_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -434,7 +521,7 @@ CMakeFiles/vui_client_example.dir/clean:
 CMakeFiles/low_level.dir/all:
 	$(MAKE) -f CMakeFiles/low_level.dir/build.make CMakeFiles/low_level.dir/depend
 	$(MAKE) -f CMakeFiles/low_level.dir/build.make CMakeFiles/low_level.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=11,12 "Built target low_level"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=15,16 "Built target low_level"
 .PHONY : CMakeFiles/low_level.dir/all
 
 # Build rule for subdir invocation for target.
@@ -461,7 +548,7 @@ CMakeFiles/low_level.dir/clean:
 CMakeFiles/wireless.dir/all:
 	$(MAKE) -f CMakeFiles/wireless.dir/build.make CMakeFiles/wireless.dir/depend
 	$(MAKE) -f CMakeFiles/wireless.dir/build.make CMakeFiles/wireless.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=39,40 "Built target wireless"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=45,46 "Built target wireless"
 .PHONY : CMakeFiles/wireless.dir/all
 
 # Build rule for subdir invocation for target.
@@ -542,7 +629,7 @@ CMakeFiles/advanced_gamepad.dir/clean:
 CMakeFiles/state_machine_example.dir/all:
 	$(MAKE) -f CMakeFiles/state_machine_example.dir/build.make CMakeFiles/state_machine_example.dir/depend
 	$(MAKE) -f CMakeFiles/state_machine_example.dir/build.make CMakeFiles/state_machine_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=25,26 "Built target state_machine_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=31,32 "Built target state_machine_example"
 .PHONY : CMakeFiles/state_machine_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -569,7 +656,7 @@ CMakeFiles/state_machine_example.dir/clean:
 CMakeFiles/sportmode_test.dir/all:
 	$(MAKE) -f CMakeFiles/sportmode_test.dir/build.make CMakeFiles/sportmode_test.dir/depend
 	$(MAKE) -f CMakeFiles/sportmode_test.dir/build.make CMakeFiles/sportmode_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=21,22 "Built target sportmode_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=27,28 "Built target sportmode_test"
 .PHONY : CMakeFiles/sportmode_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -596,7 +683,7 @@ CMakeFiles/sportmode_test.dir/clean:
 CMakeFiles/robot_state_client_example.dir/all:
 	$(MAKE) -f CMakeFiles/robot_state_client_example.dir/build.make CMakeFiles/robot_state_client_example.dir/depend
 	$(MAKE) -f CMakeFiles/robot_state_client_example.dir/build.make CMakeFiles/robot_state_client_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=17,18 "Built target robot_state_client_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles --progress-num=23,24 "Built target robot_state_client_example"
 .PHONY : CMakeFiles/robot_state_client_example.dir/all
 
 # Build rule for subdir invocation for target.
