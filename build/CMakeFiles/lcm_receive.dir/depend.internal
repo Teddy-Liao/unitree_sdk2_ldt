@@ -4,3 +4,5 @@
 CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.o
  /home/parallels/Projects/unitree_sdk2_ldt/example/lcm/lcm_receive.cpp
  /home/parallels/Projects/unitree_sdk2_ldt/example/lcm/leg_control_data_lcmt.hpp
+ /home/parallels/Projects/unitree_sdk2_ldt/example/lcm/rc_command_lcmt.hpp
+ /home/parallels/Projects/unitree_sdk2_ldt/example/lcm/state_estimator_lcmt.hpp

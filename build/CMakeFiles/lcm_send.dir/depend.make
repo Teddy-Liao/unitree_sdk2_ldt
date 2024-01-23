@@ -3,4 +3,6 @@
 
 CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.o: ../example/lcm/lcm_send.cpp
 CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.o: ../example/lcm/leg_control_data_lcmt.hpp
+CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.o: ../example/lcm/rc_command_lcmt.hpp
+CMakeFiles/lcm_send.dir/example/lcm/lcm_send.cpp.o: ../example/lcm/state_estimator_lcmt.hpp
 

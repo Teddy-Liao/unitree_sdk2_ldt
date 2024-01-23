@@ -3,4 +3,6 @@
 
 CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.o: ../example/lcm/lcm_receive.cpp
 CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.o: ../example/lcm/leg_control_data_lcmt.hpp
+CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.o: ../example/lcm/rc_command_lcmt.hpp
+CMakeFiles/lcm_receive.dir/example/lcm/lcm_receive.cpp.o: ../example/lcm/state_estimator_lcmt.hpp
 
