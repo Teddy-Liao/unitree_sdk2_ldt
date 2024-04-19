@@ -41,3 +41,6 @@ add_executable(lcm_send example/lcm/lcm_send.cpp)
 target_link_libraries(lcm_send lcm)
 add_executable(lcm_receive example/lcm/lcm_receive.cpp)
 target_link_libraries(lcm_receive lcm)
+
+# 下面是user中的自定义程序
+add_executable(guide_dog example/user/guide_dog/highlevel_move_test.cpp)

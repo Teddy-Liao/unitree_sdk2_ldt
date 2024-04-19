@@ -8,6 +8,7 @@
 /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/test_publisher.dir
 /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/high_state_ldt.dir
 /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/test_jsonize.dir
+/home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/guide_dog.dir
 /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/joystick_test_ldt.dir
 /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/test_subscriber.dir
 /home/parallels/Projects/unitree_sdk2_ldt/build/CMakeFiles/video_client_example.dir

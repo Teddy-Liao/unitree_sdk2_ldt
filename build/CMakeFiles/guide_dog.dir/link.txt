@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/guide_dog.dir/example/user/guide_dog/highlevel_move_test.cpp.o  -o guide_dog  -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread 

@@ -215,6 +215,19 @@ test_jsonize/fast:
 .PHONY : test_jsonize/fast
 
 #=============================================================================
+# Target rules for targets named guide_dog
+
+# Build rule for target.
+guide_dog: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 guide_dog
+.PHONY : guide_dog
+
+# fast build rule for target.
+guide_dog/fast:
+	$(MAKE) -f CMakeFiles/guide_dog.dir/build.make CMakeFiles/guide_dog.dir/build
+.PHONY : guide_dog/fast
+
+#=============================================================================
 # Target rules for targets named joystick_test_ldt
 
 # Build rule for target.
@@ -831,6 +844,33 @@ example/state_machine/main.cpp.s:
 	$(MAKE) -f CMakeFiles/state_machine_example.dir/build.make CMakeFiles/state_machine_example.dir/example/state_machine/main.cpp.s
 .PHONY : example/state_machine/main.cpp.s
 
+example/user/guide_dog/highlevel_move_test.o: example/user/guide_dog/highlevel_move_test.cpp.o
+
+.PHONY : example/user/guide_dog/highlevel_move_test.o
+
+# target to build an object file
+example/user/guide_dog/highlevel_move_test.cpp.o:
+	$(MAKE) -f CMakeFiles/guide_dog.dir/build.make CMakeFiles/guide_dog.dir/example/user/guide_dog/highlevel_move_test.cpp.o
+.PHONY : example/user/guide_dog/highlevel_move_test.cpp.o
+
+example/user/guide_dog/highlevel_move_test.i: example/user/guide_dog/highlevel_move_test.cpp.i
+
+.PHONY : example/user/guide_dog/highlevel_move_test.i
+
+# target to preprocess a source file
+example/user/guide_dog/highlevel_move_test.cpp.i:
+	$(MAKE) -f CMakeFiles/guide_dog.dir/build.make CMakeFiles/guide_dog.dir/example/user/guide_dog/highlevel_move_test.cpp.i
+.PHONY : example/user/guide_dog/highlevel_move_test.cpp.i
+
+example/user/guide_dog/highlevel_move_test.s: example/user/guide_dog/highlevel_move_test.cpp.s
+
+.PHONY : example/user/guide_dog/highlevel_move_test.s
+
+# target to generate assembly for a file
+example/user/guide_dog/highlevel_move_test.cpp.s:
+	$(MAKE) -f CMakeFiles/guide_dog.dir/build.make CMakeFiles/guide_dog.dir/example/user/guide_dog/highlevel_move_test.cpp.s
+.PHONY : example/user/guide_dog/highlevel_move_test.cpp.s
+
 example/user/high_level_ctrl_ldt.o: example/user/high_level_ctrl_ldt.cpp.o
 
 .PHONY : example/user/high_level_ctrl_ldt.o
@@ -1036,6 +1076,7 @@ help:
 	@echo "... test_publisher"
 	@echo "... high_state_ldt"
 	@echo "... test_jsonize"
+	@echo "... guide_dog"
 	@echo "... joystick_test_ldt"
 	@echo "... test_subscriber"
 	@echo "... video_client_example"
@@ -1098,6 +1139,9 @@ help:
 	@echo "... example/state_machine/main.o"
 	@echo "... example/state_machine/main.i"
 	@echo "... example/state_machine/main.s"
+	@echo "... example/user/guide_dog/highlevel_move_test.o"
+	@echo "... example/user/guide_dog/highlevel_move_test.i"
+	@echo "... example/user/guide_dog/highlevel_move_test.s"
 	@echo "... example/user/high_level_ctrl_ldt.o"
 	@echo "... example/user/high_level_ctrl_ldt.i"
 	@echo "... example/user/high_level_ctrl_ldt.s"
